@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-weight: bold;
+    line-height: 1.6;
+    background-color: #faeeee;
+    color: #000000f0;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #031507;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff7f7;
+    text-decoration: rgb(127, 25, 229);
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.booking-section {
+   
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(78, 241, 49, 0.2);
+}
+
+.booking-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.booking-section form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.booking-section form input, 
+.booking-section form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ef6969;
+    border-radius: 5px;
+}
+
+.booking-section form button {
+    grid-column: 1 / span 2;
+    background: #f3f2ec;
+    
+    cursor: pointer;
+}
+
+.booking-section form button:hover {
+    background: #f4f4c3;
+}
+
+.menu-section {
+    margin: 40px 0;
+}
+
+.menu-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    width: 23%;
+    background: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 100%;
+    border-radius: 10px;
+    height: 140px;
+    object-fit: cover;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
